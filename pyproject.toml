@@ -6,8 +6,11 @@ authors = [
     {name = "Gabriel Salles",email = "gs.amaral20@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.9,<3.13"
+
 dependencies = [
+    "pandas (>=2.3.0,<3.0.0)",
+    "deep-translator (>=1.11.4,<2.0.0)"
 ]
 
 
